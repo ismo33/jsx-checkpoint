@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import image2 from './image2.jpg'
+import './App.css'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <div>
+      <h1 className="title red">Ismail Ousji</h1>
+      <br/>
+      <br/>
+      <img src={image2} alt="mypic"></img>
+      <br/>
+      <br/>
+      <img src='/image1.png' alt='yourpic'width="400" height="300"></img>
     </div>
+    <br/>
+    <iframe className="frame"
+      width="450"
+      height="300"
+      src="https://www.youtube.com/embed/m7OWXtbiXX8"
+      title="YouTube video player"
+    />
+     
+    </>
   );
 }
 
